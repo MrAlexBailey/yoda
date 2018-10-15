@@ -1,0 +1,64 @@
+{
+    "workbench.colorTheme": "Monokai",
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 13,
+    "python.linting.enabled": false,
+    "python.linting.pylintEnabled": false,
+    "python.pythonPath": "C:\\Python27\\python.exe",
+    "code-runner.saveFileBeforeRun": true,
+    "editor.dragAndDrop": false,
+    "editor.fontFamily": "'Source Code Pro', Consolas, 'Courier New', monospace",
+    "explorer.confirmDelete": false,
+    "workbench.statusBar.feedback.visible": false,
+    "window.zoomLevel": 0,
+    "files.exclude": {
+        "**/*.enc": true,
+        "**/*.pyc": true
+    },
+    "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
+    "editor.links": false,
+    "files.associations": {
+        "*.json": "jsonc"
+    },
+    "http.proxyStrictSSL": false,
+    "code-runner.fileDirectoryAsCwd": true,
+    "todo.statistics.project.enabled": false,
+    "todo.colors.comment": "#c4bb91",
+    "todo.timekeeping.finished.format": "MM/DD/YY hh:mm",
+    "todo.statistics.statusbar.enabled": false,
+    "todo.embedded.include": [""],
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": ["meta.function-call.generic.python"],
+                "settings": {
+                    "foreground": "#66d9efff",
+                },
+            },
+            {
+                "scope": ["support.function.builtin.python print"],
+                "settings": {
+                    "foreground": "#F92672"
+                }
+            },
+            {
+                "scope": ["storage.type.format.python"],
+                "settings": {
+                    "foreground": "#AE81FF"
+                }
+            },
+            {
+                "scope": ["string.quoted.docstring.multi.python"],
+                "settings": {
+                    "foreground": "#75715E"
+                }
+            }
+        ],  
+    },
+    "code-runner.enableAppInsights": false,
+    "rewrap.wrappingColumn": 90,
+    "rewrap.wholeComment": false,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+}
